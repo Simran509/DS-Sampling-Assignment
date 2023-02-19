@@ -44,7 +44,7 @@ The table below shows the accuracies of each sampling technique on five differen
 | Cluster Sampling | 0.9868 | **0.9971** | 0.9088 | 0.9691 | 0.8971 |
 | Convenience Sampling | 0.9849 | 0.9962 | 0.9322 | 0.9623 | 0.8833 |
 
-The model which gives the best accuracy for all 5 samples is **Decision Tree**.
+The model which gives the best accuracy for all 5 samples is **Gradient Boosting Classifier**.
 
 ## Conclusion
 
