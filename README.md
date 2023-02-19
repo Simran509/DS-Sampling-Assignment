@@ -1,28 +1,40 @@
 # DS-Sampling-Assignment
 
-# Comparing Sampling Techniques for 5 Machine Learning Models
-
-## Introduction
-
-This project explores the effectiveness of different sampling techniques for creating a balanced dataset for a machine learning model. The dataset used is initially unbalanced, so random over-sampling and under-sampling techniques are used to create a balanced dataset. Five different sampling techniques are then applied to this balanced dataset, and the accuracies of the resulting samples are compared using five different machine learning models.
+# Comparison of 5 Sampling Techniques for 5 Machine Learning Models
 
 ## Sampling Techniques
 
 The following five sampling techniques were used in this project:
 
-1. **Simple Random Sampling:** A basic sampling technique where each data point in the dataset has an equal probability of being selected in the sample.
+1. **Simple Random Sampling:** In a simple random sample, every member of the population has an equal chance of being selected. Your sampling frame should include the whole population.To conduct this type of sampling, you can use tools like random number generators or other techniques that are based entirely on chance.
 
-2. **Stratified Sampling:** A sampling technique where the population is divided into subgroups (strata) based on a specific characteristic, and samples are taken from each stratum in proportion to the population.
+![m1](https://user-images.githubusercontent.com/75723834/219950512-96c9ccd8-170c-441d-8dd9-3203c502ab83.png)
 
-3. **Systematic Sampling:** A sampling technique where every nth element in the population is selected for the sample, with n being a fixed interval.
 
-4. **Cluster Sampling:** A sampling technique where the population is divided into clusters, and a sample of clusters is randomly selected. Then, all members of the selected clusters are included in the sample.
+2. **Stratified Sampling:** Stratified sampling involves dividing the population into subpopulations that may differ in important ways. It allows you draw more precise conclusions by ensuring that every subgroup is properly represented in the sample.
 
-5. **Convenience Sampling:** A non-probability sampling technique where the sample is chosen based on its convenience to the researcher.
+![m2](https://user-images.githubusercontent.com/75723834/219950516-fdbded1e-f8e6-49e2-848d-34984bc81b55.png)
+
+
+3. **Systematic Sampling:** Systematic sampling is similar to simple random sampling, but it is usually slightly easier to conduct. Every member of the population is listed with a number, but instead of randomly generating numbers, individuals are chosen at regular intervals.
+
+![m3](https://user-images.githubusercontent.com/75723834/219950523-3ed4c17c-016d-42fe-a4ac-6f6609c3f2c9.png)
+
+
+4. **Cluster Sampling:** Cluster sampling also involves dividing the population into subgroups, but each subgroup should have similar characteristics to the whole sample. Instead of sampling individuals from each subgroup, you randomly select entire subgroups.
+
+![m4](https://user-images.githubusercontent.com/75723834/219950532-853c0fdf-cc18-4471-8bef-f2e4e1dea22a.png)
+
+
+5. **Convenience Sampling:** A convenience sampling is an easy and inexpensive way to gather initial data, but there is no way to tell if the sample is representative of the population, so it can’t produce generalizable results. Convenience samples are at risk for both sampling bias and selection bias.
+
+ ![m5](https://user-images.githubusercontent.com/75723834/219950547-689dc9a4-bff0-4d1d-874d-b851309cd602.png)
+
+
 
 ## Comparison Table
 
-The table below shows the accuracies of each sampling technique on five different machine learning models. The dataset used for all models is a balanced version of the original unbalanced dataset using random over-sampling and under-sampling techniques.
+The table below shows the accuracies of each sampling technique on five different machine learning models. 
 
 | Sampling Technique | Decision Tree | SVM | Logistic Resgression | KNN | Naive Bayes |
 |:---------------:|:---------------:|:---------------:|:---------------:|:---------------:|:---------------:|
@@ -32,30 +44,9 @@ The table below shows the accuracies of each sampling technique on five differen
 | Cluster Sampling | **0.9868** | 0.9000 | 0.9088 | 0.9691 | 0.9235 |
 | Convenience Sampling | 0.9849 | 0.9190 | 0.9322 | 0.9623 | 0.7740 |
 
-Based on these results, it can be concluded that Cluster Sampling performs the best on all five models. Simple random sampling performs the worst on all five models. The other sampling techniques have varying performance depending on the model. The model which gives the best accuracy for all 5 samples is Decision Tree.
+The model which gives the best accuracy for all 5 samples is **Decision Tree**.
 
 ## Conclusion
 
-It is recommended to use cluster sampling for this dataset, as it consistently gives the best performance across all models. However, other sampling techniques may be worth considering for different datasets or models.
+Cluster sampling gives best results for this dataset.Hence cluster sampling must be preferred for this dataset.
 
-
-
-
-
-
-
-
-
-
-![m1](https://user-images.githubusercontent.com/75723834/219950512-96c9ccd8-170c-441d-8dd9-3203c502ab83.png)
-
-
-![m2](https://user-images.githubusercontent.com/75723834/219950516-fdbded1e-f8e6-49e2-848d-34984bc81b55.png)
-
-![m3](https://user-images.githubusercontent.com/75723834/219950523-3ed4c17c-016d-42fe-a4ac-6f6609c3f2c9.png)
-
-
-![m4](https://user-images.githubusercontent.com/75723834/219950532-853c0fdf-cc18-4471-8bef-f2e4e1dea22a.png)
-
-
- ![m5](https://user-images.githubusercontent.com/75723834/219950547-689dc9a4-bff0-4d1d-874d-b851309cd602.png)
