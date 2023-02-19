@@ -36,13 +36,13 @@ The following five sampling techniques were used in this project:
 
 The table below shows the accuracies of each sampling technique on five different machine learning models. 
 
-| Sampling Technique | Decision Tree | SVM | Logistic Regression | KNN | Naive Bayes |
+| Sampling Technique | Decision Tree | SVM | Logistic Regression | KNN | Linear Discriminant Analysis |
 |:---------------:|:---------------:|:---------------:|:---------------:|:---------------:|:---------------:|
-| Simple Random Sampling | 0.9778 | 0.8954 | 0.8917 | 0.8915 | 0.7275 |
-| Systematic Sampling | 0.9813 | 0.8989 | 0.9213 | 0.9493 | 0.6854 |
-| Stratified Sampling | 0.9851 | 0.8937 | 0.9217 | 0.9498 | 0.6890 |
-| Cluster Sampling | **0.9868** | 0.9000 | 0.9088 | 0.9691 | 0.9235 |
-| Convenience Sampling | 0.9849 | 0.9190 | 0.9322 | 0.9623 | 0.7740 |
+| Simple Random Sampling | 0.9778 | 0.8954 | 0.8917 | 0.8915 | 0.8805 |
+| Systematic Sampling | 0.9813 | 0.8989 | 0.9213 | 0.9493 | 0.9158 |
+| Stratified Sampling | 0.9851 | 0.8937 | 0.9217 | 0.9498 | 0.8791 |
+| Cluster Sampling | **0.9868** | 0.9000 | 0.9088 | 0.9691 | 0.8971 |
+| Convenience Sampling | 0.9849 | 0.9190 | 0.9322 | 0.9623 | 0.8833 |
 
 The model which gives the best accuracy for all 5 samples is **Decision Tree**.
 
