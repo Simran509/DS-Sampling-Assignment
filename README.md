@@ -13,12 +13,12 @@ The following five sampling techniques were used in this project:
 
 2. **Stratified Sampling:** Stratified sampling involves dividing the population into subpopulations that may differ in important ways. It allows you draw more precise conclusions by ensuring that every subgroup is properly represented in the sample.
 
-![m2](https://user-images.githubusercontent.com/75723834/219950516-fdbded1e-f8e6-49e2-848d-34984bc81b55.png)
-
+![m3](https://user-images.githubusercontent.com/75723834/219950523-3ed4c17c-016d-42fe-a4ac-6f6609c3f2c9.png)
 
 3. **Systematic Sampling:** Systematic sampling is similar to simple random sampling, but it is usually slightly easier to conduct. Every member of the population is listed with a number, but instead of randomly generating numbers, individuals are chosen at regular intervals.
 
-![m3](https://user-images.githubusercontent.com/75723834/219950523-3ed4c17c-016d-42fe-a4ac-6f6609c3f2c9.png)
+
+![m2](https://user-images.githubusercontent.com/75723834/219950516-fdbded1e-f8e6-49e2-848d-34984bc81b55.png)
 
 
 4. **Cluster Sampling:** Cluster sampling also involves dividing the population into subgroups, but each subgroup should have similar characteristics to the whole sample. Instead of sampling individuals from each subgroup, you randomly select entire subgroups.
